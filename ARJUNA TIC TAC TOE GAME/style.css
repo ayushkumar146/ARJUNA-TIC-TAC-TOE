@@ -1,0 +1,317 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.fullgame{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+.section1{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 30vw;
+    /* background-color: rebeccapurple; */
+    align-items: center;
+    justify-content: space-evenly;
+    background-image: url("https://images.unsplash.com/photo-1616712134411-6b6ae89bc3ba?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8NHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+}
+.player1{
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    width: 30vw;
+    justify-content: center;
+    align-items: center;
+}
+.player2{
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    width: 30vw;
+    justify-content: center;
+    align-items: center;
+}
+.playername1 {
+    height: 8vh;
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5vh;
+    color: red;
+}
+.playername2{
+    height: 8vh;
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5vh;
+    color: red;
+}
+.hide{
+    display: none;
+}
+.avatar1{
+    height: 25vh;
+    width: 20vw;
+    background-image: url("https://cdn.vox-cdn.com/thumbor/Bsf6aA_IHZbsXWeo-GSoIDq3AxY=/1400x1050/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/21730161/avatar_the_last_airbender_image.jpeg");
+    background-size: cover;
+    margin-top: 1vh;
+    border-radius: 100px;
+}
+.avatar2{
+    height: 25vh;
+    width: 20vw;
+    background-image: url("https://hips.hearstapps.com/hmg-prod/images/sam-worthington-avatar-the-way-of-the-water-1670323169.jpg?crop=0.528xw:1.00xh;0.134xw,0&resize=1200:*");
+    background-size: cover;
+    margin-top: 1vh;
+    border-radius: 100px;
+
+
+}
+.section1 input[type=text]{
+    display: flex;
+    height: 4vh;
+    width: 20vw;
+    font-size: 3vh;
+    border: solid rgb(73, 115, 9);
+    border-radius: 7vh;
+    text-align: center;
+}
+.head{
+    height: 20vh;
+    width: 40vw;
+}
+.letsplay{
+    font-size: 10vh;
+    color: red;
+}
+.section2{
+    height: 100vh;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-image: url("https://img.freepik.com/free-photo/ultra-detailed-nebula-abstract-wallpaper-4_1562-749.jpg?size=626&ext=jpg&ga=GA1.1.959727907.1701868601&semt=ais");
+    background-size: cover;
+}
+.gamebox{
+    display: grid;
+    grid-template-columns: repeat(3,10vw);
+    grid-template-rows: repeat(3,10vh);
+}
+
+.box{
+    display: flex;
+height: 10vh;
+width: 10vw;
+border:solid black;
+justify-content: center;
+align-items: center;
+font-size: 5vh;
+}
+.box:hover{
+    background-color: blueviolet;
+    color: yellow;
+}
+.reset{
+    width: 20vw;
+    height: 6vh;
+    font-size: 5vh;
+    background-color: black;
+    color:red;
+}
+
+
+.section3{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 30vw;
+    /* background-color: blue; */
+    justify-content: center;
+    align-items:center ;
+    background-image: url("https://img.freepik.com/free-vector/realistic-galaxy-background_23-2148991322.jpg?w=996&t=st=1702068237~exp=1702068837~hmac=67016284a572ada307517d440a99284a16bdc675a2572ddd15a5b442ac180968");
+    background-size: cover;
+}
+.turn{
+    display: flex;
+    height: 10vh;
+    width: 30vw;
+    justify-content: center;
+    align-items: center;
+    font-size: 8vh;
+    color: yellow;
+}
+.gif{
+    width: 30vw;
+    height: 60vh;
+    background-image: url("excited.gif");
+    background-size: contain;
+    margin-bottom: 11vw;
+    margin-right: 2vw;
+
+}
+.chance1{
+    display: flex;
+    height: 45vh;
+    width: 30vw;
+    justify-content: center;
+    align-items: center;
+    font-size: 7vh;
+    color: greenyellow;
+}
+.chance2{
+    display: flex;
+    height: 45vh;
+    width: 30vw;
+    justify-content: center;
+    align-items: center;
+    font-size: 7vh;
+    color: greenyellow;
+
+}
+.winner{
+    height: 20vh;
+    width: 30vw;
+    font-size: 5vh;
+    color: yellow;
+}
+.hidden{
+    display:none;
+}
+
+
+@media screen and (max-width:1100px){
+    .section1{
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        width: 40vw;
+        background-color: rebeccapurple;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .player1{
+        display: flex;
+        flex-direction: column;
+        height: 50vh;
+        width: 30vw;
+        justify-content: center;
+        align-items: center;
+    }
+    .player2{
+        display: flex;
+        flex-direction: column;
+        height: 50vh;
+        width: 30vw;
+        justify-content: center;
+        align-items: center;
+    }
+    .playername1 {
+        height: 8vh;
+        width: 20vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 5vh;
+        color: red;
+    }
+    .playername2{
+        height: 8vh;
+        width: 20vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 5vh;
+        color: red;
+    }
+    .hide{
+        display: none;
+    }
+    .avatar1{
+        height: 15vh;
+        width: 40vw;
+        background-image: url("https://cdn.vox-cdn.com/thumbor/Bsf6aA_IHZbsXWeo-GSoIDq3AxY=/1400x1050/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/21730161/avatar_the_last_airbender_image.jpeg");
+        background-size: cover;
+        margin-top: 1vh;
+        border-radius: 100px;
+    }
+    .avatar2{
+        height: 15vh;
+        width: 40vw;
+        background-image: url("https://hips.hearstapps.com/hmg-prod/images/sam-worthington-avatar-the-way-of-the-water-1670323169.jpg?crop=0.528xw:1.00xh;0.134xw,0&resize=1200:*");
+        background-size: cover;
+        margin-top: 1vh;
+        border-radius: 100px;
+    
+    
+    }
+    .section1 input[type=text]{
+        display: flex;
+        height: 4vh;
+        width: 30vw;
+        font-size: 2vh;
+        border: solid rgb(73, 115, 9);
+        border-radius: 7vh;
+        text-align: center;
+    }
+    .head {
+        height: 20vh;
+        width: 40vw;
+    }
+    .head1 {
+        height: 20vh;
+        width: 40vw;
+    }
+    .letsplay{
+        font-size: 6vh;
+        color: red;
+    }
+    
+    .section2{
+        height: 100vh;
+        width: 60vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .box{
+        display: flex;
+    height: 10vh;
+    width: 20vw;
+    border:solid black;
+    justify-content: center;
+    align-items: center;
+    font-size: 5vh;
+    }
+    .box:hover{
+        background-color: blueviolet;
+        color: yellow;
+    }
+    .reset{
+        width: 40vw;
+        height: 6vh;
+        font-size: 5vh;
+        background-color: black;
+        color:red;
+    }
+    .gamebox{
+        margin-top: 10vh;
+        display: grid;
+        height: 50vh;
+        width: 60vw;
+        grid-template-columns: repeat(3,20vw);
+        grid-template-rows: repeat(3,10vh);
+    }
+    .section3{
+        display: none;
+    }
+
+}
